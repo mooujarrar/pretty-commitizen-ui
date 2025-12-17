@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 1. Force the root containers to fill the VS Code window */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Stop the window itself from scrolling */
+}
+
+body {
+  background-color: transparent;
+  color: var(--vscode-editor-foreground);
+  font-family: var(--vscode-font-family);
+}
+
+/* 2. Force Swiper to take available space */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+/* 3. VS Code Input Styling */
+.vscode-input {
+  @apply w-full p-2 border rounded-sm outline-none transition-colors;
+  background-color: var(--vscode-input-background);
+  border-color: var(--vscode-input-border);
+  color: var(--vscode-input-foreground);
+}
+
+.vscode-input:focus {
+  border-color: var(--vscode-focusBorder);
+}

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 60 392 392" width="512" height="512">
+  <defs>
+    <linearGradient id="cyberGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22d3ee;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="gemGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#818cf8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4f46e5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <path d="M 400 360 A 170 170 0 1 1 420 170" 
+        fill="none" 
+        stroke="url(#cyberGradient)" 
+        stroke-width="32" 
+        stroke-linecap="round" 
+        opacity="0.9" />
+
+  <path d="M 430 90 L 430 180 L 350 150" 
+        fill="none" 
+        stroke="url(#cyberGradient)" 
+        stroke-width="32" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+
+  <circle cx="150" cy="360" r="30" fill="#22d3ee" />
+  
+  <line x1="100" y1="408.88" x2="256" y2="256" 
+        stroke="#22d3ee" 
+        stroke-width="24" 
+        stroke-linecap="round" 
+        opacity="0.8" />
+  
+  <line x1="256" y1="256" x2="360" y2="154.08" 
+        stroke="#a855f7" 
+        stroke-width="24" 
+        stroke-linecap="round" 
+        opacity="0.8" />
+
+
+  <g transform="translate(256, 256)">
+    <path d="M -70 -20 L -30 -60 L 30 -60 L 70 -20 L 0 85 Z" 
+          fill="url(#gemGradient)" 
+          stroke="#6366f1" 
+          stroke-width="4" 
+          stroke-linejoin="round"/>
+    
+    <path d="M -70 -20 L -30 -60 L 30 -60 L 70 -20 L 0 0 Z" 
+          fill="#c7d2fe" 
+          opacity="0.9"/>
+          
+    <path d="M -70 -20 L 0 85" stroke="#312e81" stroke-width="2" opacity="0.3" />
+    <path d="M 70 -20 L 0 85" stroke="#312e81" stroke-width="2" opacity="0.3" />
+    <path d="M 0 0 L 0 85" stroke="#312e81" stroke-width="2" opacity="0.3" />
+  </g>
+
+  <path transform="translate(20, 20)" d="M 180 180 Q 200 180 200 160 Q 200 180 220 180 Q 200 180 200 200 Q 200 180 180 180 Z" 
+        fill="url(#gemGradient)" />
+
+</svg>

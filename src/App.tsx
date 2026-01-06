@@ -278,7 +278,6 @@ const App: React.FC = () => {
           </button>
         </div>
       </div>
-      <div className='w-50 h-50 bg-red-100'>.</div>
     </div>
   );
 };
